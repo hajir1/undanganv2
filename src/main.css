@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primaryColor: #c8a59b;
+  --secondaryColor: #cbaa9f;
+  --thirtyColor: #b8988d;
+  --fourthColor: #c09e94;
+  --fivethColor: #cbaa9f;
+  --sixthColor: #916c5d;
+  --primaryFont: "Edu AU VIC WA NT Hand", cursive;
+  --secondaryFont: "Parisienne", cursive;
+}
+.bgPrimary {
+  background: linear-gradient(
+    to right,
+    var(--primaryColor),
+    var(--secondaryColor),
+    var(--thirtyColor),
+    var(--fourthColor),
+    var(--fivethColor),
+    var(--sixthColor)
+  );
+  height: 100vh;
+}
+.particle {
+  box-shadow: 1px 1px 1px var(--thirtyColor);
+  border-radius: 50%;
+}
+.satu {
+  width: 0.4rem;
+  height: 5rem;
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+.dua {
+  background-color: #916c5d;
+  outline: none;
+  position: relative;
+  width: 0.9rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 0.5rem 0rem;
+}
+.tiga {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.4rem;
+  height: 6rem;
+  border-radius: 0rem 0rem 0rem 0.5rem;
+}
+.empat {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.9rem;
+  height: 10rem;
+  border-radius: 0rem 0rem 2rem 2rem;
+}
+.lima {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.2rem;
+  height: 5rem;
+  border-radius: 0rem 0rem 50% 0rem;
+}
+
+.enam {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.2rem;
+  height: 5rem;
+  border-radius: 0rem 0rem 0rem 50%;
+}
+.tujuh {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 7rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+.lapan {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.6rem;
+  height: 5.4rem;
+}
+.mbilan {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1rem;
+  height: 12rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.sepuluh {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.6rem;
+  height: 5rem;
+  border-radius: 0rem 0rem 40% 0rem;
+}
+.sebelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.1rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 0, 5rem 0.5rem;
+}
+.duabelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 13rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.tigabelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.6rem;
+  height: 5rem;
+  border-radius: 0rem 0rem 30% 0rem;
+}
+.empatbelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.4rem;
+  height: 8rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.limabelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.1rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 60% 0rem;
+}
+.enambelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 2.1rem;
+  height: 4.5rem;
+  border-radius: 0rem 0rem 0rem 60%;
+}
+.tujuhbelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.1rem;
+  height: 12rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.lapanbelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.1rem;
+  height: 5.4rem;
+  border-radius: 0rem 0rem 0.2rem 0.2rem;
+}
+.mbilanbelas {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 8rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.duapuluh {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 5.4rem;
+  border-radius: 0rem 0rem 0.2rem 0.2rem;
+}
+.duasatu {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 8rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.duadua {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 4.5rem;
+  border-radius: 0rem 0rem 60% 0rem;
+}
+.duatiga {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 4.5rem;
+  border-radius: 0rem 0rem 0rem 60%;
+}
+.duaempat {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 11.4rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.dualima {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 5rem;
+  border-radius: 0rem 0rem 60% 0rem;
+}
+.duaenam {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 12rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.duatujuh {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 60% 0rem;
+}
+.dualapan {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.1rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 0rem 60%;
+}
+.duambilan {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.5rem;
+  height: 7rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.tigapuluh {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 3.6rem;
+  border-radius: 0rem 0rem 60% 0rem;
+}
+.tigasatu {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 3.6rem;
+  border-radius: 0rem 0rem 0rem 60%;
+}
+.tigadua {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 8rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.tigatiga {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8;
+  height: 8rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.tigaempat {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.6rem;
+  height: 5rem;
+  border-radius: 0rem 0rem 60% 0rem;
+}
+.tigalima {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.6rem;
+  height: 5rem;
+  border-radius: 0rem 0rem 0rem 60%;
+}
+.tigaenam {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 12rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.tigatujuh {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.8rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+.tigalapan {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 1.4rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 60% 0rem;
+}
+/* .tigambilan {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.7rem;
+  height: 4rem;
+  border-radius: 0rem 0rem 0rem 60%;
+} */
+/* .empatpuluh {
+  background-color: var(--sixthColor);
+  outline: none;
+  position: relative;
+  width: 0.7rem;
+  height: 4rem;
+} */
+.title {
+  font-family: var(--primaryFont);
+  font-weight: bold;
+  color: #f3cfc9;
+  font-size: 14rem;
+  bottom: -3rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.quote {
+  margin-top: 5rem;
+ 
+  /* padding-left: 1rem; */
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  font-family: var(--secondaryFont);
+}
